@@ -1,6 +1,6 @@
 package Hacker;
 
-import example1.MyFirstClass;
+//import example1.MyFirstClass;
 
 public class myHack {
 

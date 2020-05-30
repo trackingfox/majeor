@@ -1,4 +1,4 @@
-package example1;
+/*package example1;
 
 public class Password {
 
@@ -7,4 +7,4 @@ public class Password {
 
 	}
 
-}
+}*/
