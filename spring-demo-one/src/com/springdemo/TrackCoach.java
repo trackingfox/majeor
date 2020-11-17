@@ -5,6 +5,10 @@ public class TrackCoach implements Coach {
 	
 	private FortuneService fortuneService;
 	
+	public TrackCoach() {
+		
+	}
+	
 	public TrackCoach(FortuneService fortuneService) {
 		super();
 		this.fortuneService = fortuneService;
@@ -19,7 +23,18 @@ public class TrackCoach implements Coach {
 	@Override
 	public String getDailyFortune() {
 		
-		return null;
+		return "Just do it "+fortuneService.getFortune();
+	}
+	
+	//add an init method
+	public void doMyStartUpStuff() {
+		System.out.println("TrackCoach: inside method doMyStartUpStuff");
+	}
+	
+	//add a destroy method
+	
+	public void doMyCleanUpStuffYoYo() {
+		System.out.println("TrackCoach: inside method doMyCleanUpStuff");
 	}
 
 }
